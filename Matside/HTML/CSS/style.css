@@ -1,0 +1,64 @@
+* {background-color: #C42152;}
+* {margin: 0%;}
+
+
+
+
+
+
+
+header  {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #FF00A1;
+padding: 10px 20px;
+margin: 0;
+font-size: 40px;
+}
+
+.logo a {
+text-decoration: none;
+border: none;
+color: black;
+background-color: #FF00A1;
+padding: 0;
+margin: 0;
+}
+
+.logo a:hover {
+color: aqua;
+}
+
+
+
+
+
+
+.navbar {
+    background-color: #FF00A1;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+  }
+  
+ 
+  .navbar a {
+    color: rgb(0, 0, 0);
+    background-color: #FF00A1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 40px;
+    display: inline-block;
+  }
+  
+  
+  .navbar a.active {
+    background-color:#FF00A1;
+    color: rgb(0, 0, 0);
+  }
+
+  .navbar a:hover {
+  color: aqua;
+  }
